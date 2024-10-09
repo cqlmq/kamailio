@@ -41,6 +41,7 @@ struct db_id
 	char *host;			 /**< Host or IP, case insensitive */
 	unsigned short port; /**< Port number */
 	char *database;		 /**< Database, case sensitive */
+	char *option;		 /**< option */
 	int pid;			 /**< Process ID (detect cross connections) */
 	int poolid;			 /**< poolid within a pid */
 };
